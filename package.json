@@ -1,0 +1,33 @@
+{
+  "name": "@horat1us/names-suggest",
+  "version": "1.0.0",
+  "description": "NodeJS Names Suggest API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "translate": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Horat1us/names-suggest.git"
+  },
+  "keywords": [
+    "names",
+    "suggestion",
+    "suggest",
+    "api"
+  ],
+  "author": "Alexander Letnikow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Horat1us/names-suggest/issues"
+  },
+  "homepage": "https://github.com/Horat1us/names-suggest#readme",
+  "dependencies": {
+    "puppeteer": "^2.0.0"
+  },
+  "devDependencies": {
+    "@horat1us/bing-translator": "^1.0.0",
+    "@types/puppeteer": "^2.0.0"
+  }
+}
